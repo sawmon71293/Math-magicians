@@ -1,4 +1,4 @@
-export default function evaluate(currentOperand, previousOperand, operation) {
+export default function evaluate({ currentOperand, previousOperand, operation }) {
   const prev = parseFloat(previousOperand);
   const current = parseFloat(currentOperand);
   if (Number.isNaN(prev) || Number.isNaN(current)) return '';
@@ -11,10 +11,10 @@ export default function evaluate(currentOperand, previousOperand, operation) {
     case '-':
       computation = prev - current;
       break;
-    case 'X':
+    case 'x':
       computation = prev * current;
       break;
-    case '/':
+    case '÷':
       computation = prev / current;
       break;
   }

@@ -80,8 +80,9 @@ export default function Calculator() {
           {' '}
           {operation}
           {' '}
+          {currentOperand}
         </div>
-        <div>{currentOperand}</div>
+
       </div>
       <button
         type="button"
@@ -90,16 +91,22 @@ export default function Calculator() {
       >
         AC
       </button>
+      <button
+        className="btn light-gray"
+        type="button"
+        onClick={() => dispatch({ type: ACTIONS.CHOOSE_OPERATION })}
+      >
+        +/-
+      </button>
+      <button
+        className="btn light-gray"
+        type="button"
+        onClick={() => dispatch({ type: ACTIONS.CHOOSE_OPERATION })}
+      >
+        %
+      </button>
       <OperationButton
-        operation="%"
-        dispatch={dispatch}
-      />
-      <OperationButton
-        operation="+/-"
-        dispatch={dispatch}
-      />
-      <OperationButton
-        operation="/"
+        operation="÷"
         dispatch={dispatch}
       />
       <DigitButton
@@ -151,17 +158,21 @@ export default function Calculator() {
         dispatch={dispatch}
       />
       <DigitButton
-        digit="."
-        dispatch={dispatch}
-      />
-      <DigitButton
         digit="0"
         dispatch={dispatch}
       />
-      <OperationButton
-        operation="="
-        onClick={() => dispatch({ type: ACTIONS.EVALUATE })}
+      <DigitButton
+        digit="."
+        className="span-two"
+        dispatch={dispatch}
       />
+      <button
+        className="btn orange"
+        type="button"
+        onClick={() => dispatch({ type: ACTIONS.EVALUATE })}
+      >
+        =
+      </button>
     </div>
   );
 }

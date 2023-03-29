@@ -7,9 +7,11 @@ export const ACTIONS = {
 };
 
 export function DigitButton({ dispatch, digit }) {
+  const isZero = digit;
+
   return (
     <button
-      className="btn light-gray"
+      className={`${isZero !== '0' ? 'btn light-gray' : 'btn light-gray span-two'}`}
       type="button"
       onClick={() => dispatch({ type: ACTIONS.ADD_DIGIT, payload: { digit } })}
     >
