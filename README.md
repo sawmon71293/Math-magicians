@@ -95,7 +95,9 @@ You can deploy this project using:
 - gitHub pages/
 - npm run build
 
-### Usage 
+
+### Usage
+
 - npm run start
 
 ### Run Tests <a name="runtests"></a>
