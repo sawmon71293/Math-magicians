@@ -18,7 +18,7 @@
   - [Install](#install)
   - [Deployment](#deployment)
   - [Usage](#usage)
-  - [Run Tests](#run)
+  - [Run Tests](#runtests)
 
 - [👥 Authors](#authors)
 - [🔭 Future Features](#features)
@@ -95,7 +95,7 @@ You can deploy this project using:
 ### Usage 
 - npm run start
 
-### Run Tests
+### Run Tests <a name="runtests"></a>
 - npm test
 
 <!-- AUTHORS -->
