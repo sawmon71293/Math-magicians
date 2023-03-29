@@ -1,6 +1,9 @@
 <a name="readme-top"></a>
+
 # Preview 
-![calculator](https://user-images.githubusercontent.com/102650102/228406493-3cfa415f-3974-4a2f-aef5-50ca95794464.png)
+
+![calculator](https://user-images.githubusercontent.com/102650102/228421490-9ccb269d-2cd0-453c-b323-4c478f218d32.png)
+
 
 
 # 📗 Table of Contents
