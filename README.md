@@ -18,7 +18,7 @@
   - [Install](#install)
   - [Deployment](#deployment)
   - [Usage](#usage)
-  - [Run Tests](#run tests)
+  - [Run Tests](#run)
 
 - [👥 Authors](#authors)
 - [🔭 Future Features](#features)
