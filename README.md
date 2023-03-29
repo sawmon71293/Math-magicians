@@ -17,6 +17,8 @@
   - [Setup](#setup)
   - [Install](#install)
   - [Deployment](#deployment)
+  - [Usage](#usage)
+  - [Run Tests](#runtests)
 
 - [👥 Authors](#authors)
 - [🔭 Future Features](#features)
@@ -89,6 +91,12 @@ You can deploy this project using:
 
 - gitHub pages/
 - npm run build
+
+### Usage 
+- npm run start
+
+### Run Tests
+- npm test
 
 <!-- AUTHORS -->
 
