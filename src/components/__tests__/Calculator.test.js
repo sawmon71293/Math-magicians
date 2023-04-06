@@ -1,14 +1,18 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import renderer from 'react-test-renderer';
 import Calculator from '../Calculator';
-import '@testing-library/jest-dom/extend-expect';
 
 describe('Calculator component', () => {
-  it('renders initial state correctly', () => {
-    const { getAllByText } = render(<Calculator />);
+  it('renders correctly', () => {
+    const tree = renderer.create(<Calculator />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
 
-    // Assert that the initial state is rendered correctly
-    expect(getAllByText("Let's do some Math")).toBeInTheDocument();
-    expect(getAllByText('0').length).toBe(2);
+  it('renders correctly with specific props', () => {
+    const tree = renderer
+      .create(<Calculator numberOne="5" numberTwo="3" operation="+" />)
+      .toJSON();
+    expect(tree).toMatchSnapshot();
   });
 });

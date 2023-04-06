@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator component renders correctly 1`] = `
+<section
+  className="container quote"
+>
+  <span>
+    Loading ...
+  </span>
+  <span />
+  <span />
+</section>
+`;

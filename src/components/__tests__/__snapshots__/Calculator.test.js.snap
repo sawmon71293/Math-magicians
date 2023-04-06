@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator component renders correctly 1`] = `
+<section
+  className="container calculator"
+>
+  <div>
+    <h3>
+      Let's do some Math
+    </h3>
+  </div>
+  <div
+    className="wrapper"
+  >
+    <div
+      className="screen"
+    >
+      <div>
+        0
+      </div>
+    </div>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="btn orange"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="btn orange"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="btn orange"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="btn orange"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+    <button
+      className="btn light-gray span-two"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="btn orange"
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</section>
+`;
+
+exports[`Calculator component renders correctly with specific props 1`] = `
+<section
+  className="container calculator"
+>
+  <div>
+    <h3>
+      Let's do some Math
+    </h3>
+  </div>
+  <div
+    className="wrapper"
+  >
+    <div
+      className="screen"
+    >
+      <div>
+        0
+      </div>
+    </div>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="btn orange"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="btn orange"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="btn orange"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="btn orange"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+    <button
+      className="btn light-gray span-two"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="btn light-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="btn orange"
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</section>
+`;
