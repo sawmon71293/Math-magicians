@@ -2,6 +2,7 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 
+
 export default function DisplayQuote() {
   const apiUrl = 'https://api.api-ninjas.com/v1/quotes/';
   const token = 'CPEgr5h8YYAQbPBSC4RRnw==vFulvycB9TQ8Wyah';
