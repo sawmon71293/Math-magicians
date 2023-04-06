@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
   padding: 0;
@@ -8,19 +8,39 @@
 
 body {
   display: grid;
-  place-content: center;
   font-family: Poppins, sans-serif;
   height: 100vh;
   font-size: 1.5rem;
 }
 
-.container {
-  height: 80vh;
-  width: 100%;
-  border-radius: 1rem;
-  padding: 1rem;
+header nav {
   display: flex;
-  flex-direction: row;
+  gap: 16px;
+  justify-content: end;
+  max-width: 1200px;
+  margin: 3rem 2rem;
+}
+
+header nav h1 {
+  margin-right: auto;
+  border-bottom: 3px solid blueviolet;
+}
+
+header nav a {
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+  font-weight: 400;
+}
+
+header nav a.active {
+  background: blueviolet;
+  color: white;
+}
+
+.container {
+  margin-left: 7rem;
+  margin-top: 6rem;
 }
 
 .wrapper {
@@ -93,5 +113,15 @@ body {
 .quote {
   font-weight: bold;
   margin-right: 3rem;
-  width: 400px;
+}
+
+.calculator {
+  margin-left: 7rem;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.calculator > div {
+  margin-right: 8rem;
 }

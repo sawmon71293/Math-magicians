@@ -43,7 +43,7 @@ Read a random math-related quote.
 
 ### Tech Stack
 
-<a name="built-with">HTML,</a>
+<a name="built-with">JSX</a>
 <a name="tech-stack">CSS,</a>
 <a name="tech-stack">React</a>
 
