@@ -13,7 +13,7 @@ import Rootlayout from './layouts/Rootlayout';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route
-      path='/'
+      path="/"
       element={<Rootlayout />}
     >
       <Route
@@ -22,15 +22,15 @@ const router = createBrowserRouter(
       />
 
       <Route
-        path='quote'
+        path="quote"
         element={<DisplayQuote />}
       />
       <Route
-        path='calculator'
+        path="calculator"
         element={<Calculator />}
       />
-    </Route>
-  )
+    </Route>,
+  ),
 );
 
 function App() {
@@ -38,4 +38,3 @@ function App() {
 }
 
 export default App;
-
