@@ -1,0 +1,2 @@
+buildCommand: yarn run build
+startCommand: yarn run serve
