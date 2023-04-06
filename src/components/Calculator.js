@@ -21,14 +21,19 @@ export default function Calculator() {
   );
 
   return (
-    <div className="wrapper">
-      <div className="screen">
-        <div>
-          {data.next || data.total || '0'}
-          {data.operator && ` ${data.operator}`}
-        </div>
+    <section className="container calculator">
+      <div>
+        <h3>Let&apos;s do some Math</h3>
       </div>
-      {BUTTONS.map(renderButtons)}
-    </div>
+      <div className="wrapper">
+        <div className="screen">
+          <div>
+            {data.next || data.total || '0'}
+            {data.operator && ` ${data.operator}`}
+          </div>
+        </div>
+        {BUTTONS.map(renderButtons)}
+      </div>
+    </section>
   );
 }
