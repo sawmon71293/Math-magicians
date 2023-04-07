@@ -1,2 +1,5 @@
+version: 1
 buildCommand: yarn run build
-startCommand: yarn run serve
+startCommand: node_modules/.bin/serve -s build
+env:
+  NODE_ENV: production
